@@ -45,8 +45,8 @@ body {
     mix-blend-mode: difference;
 } */
 #cursor{
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 2vw;
+    height: 2vw;
     background-color: white;
     border: 1.5px solid white;
     position: fixed;
@@ -591,6 +591,7 @@ body {
 
 #page4-flex img {
     width: 48%;
+    mix-blend-mode: normal;
 }
 
 #page4-flex p {
@@ -844,6 +845,3 @@ body {
     z-index: 999;
     position: relative;
 }
-
-
-
