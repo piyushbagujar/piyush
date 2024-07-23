@@ -236,3 +236,18 @@ function locomotiveAnimation() {
   sheryAnimation();
   flagAnimation()
   footerAnimation()
+  gsap.from("#page3 h1", {
+    x: -500,
+    opacity: 0,
+    delay: 0.5,
+    duration: 0.6,
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: "#page3",
+      scroller: "#main",
+      // markers: true,
+      start: "top 40%",
+      end:"top 10%",
+  
+    },
+  });
