@@ -3,10 +3,11 @@ function locomotiveAnimation() {
   
     // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
   
-    const locoScroll = new LocomotiveScroll({
-      el: document.querySelector("#main"),
-      smooth: true,
-    });
+  const locoScroll = new LocomotiveScroll({
+ el: document.querySelector("hashtag#main"),
+ smooth: true,
+ smoothMobile: true
+ });
     // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
     locoScroll.on("scroll", ScrollTrigger.update);
   
